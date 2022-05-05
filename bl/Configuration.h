@@ -146,7 +146,7 @@
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Ender 15x15"
+#define CUSTOM_MACHINE_NAME "Lura 10x10"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
@@ -1606,7 +1606,7 @@
 #if EITHER(AUTO_BED_LEVELING_LINEAR, AUTO_BED_LEVELING_BILINEAR)
 
   // Set the number of grid points per dimension.
-  #define GRID_MAX_POINTS_X 15
+  #define GRID_MAX_POINTS_X 10
   #define GRID_MAX_POINTS_Y GRID_MAX_POINTS_X
 
   // Probe along the Y axis, advancing X after each column
@@ -1875,7 +1875,7 @@
 #define PREHEAT_3_FAN_SPEED   255 // Value from 0 to 255
 
 #define PREHEAT_4_LABEL       "PETG"
-#define PREHEAT_4_TEMP_HOTEND 245
+#define PREHEAT_4_TEMP_HOTEND 240
 #define PREHEAT_4_TEMP_BED     80
 #define PREHEAT_4_FAN_SPEED   255 // Value from 0 to 255
 
